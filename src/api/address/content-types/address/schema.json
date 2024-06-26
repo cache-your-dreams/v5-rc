@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "addresses",
+  "info": {
+    "singularName": "address",
+    "pluralName": "addresses",
+    "displayName": "Address"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "postcodes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::postcode.postcode",
+      "mappedBy": "address"
+    }
+  }
+}
