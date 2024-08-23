@@ -17,9 +17,9 @@
     "@types/react-dom": "^18"
   },
   "dependencies": {
-    "@strapi/strapi": "5.0.0-rc.2",
-    "@strapi/plugin-users-permissions": "5.0.0-rc.2",
-    "@strapi/plugin-cloud": "5.0.0-rc.2",
+    "@strapi/strapi": "5.0.0-rc.11",
+    "@strapi/plugin-users-permissions": "5.0.0-rc.11",
+    "@strapi/plugin-cloud": "5.0.0-rc.11",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
@@ -30,7 +30,8 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "00f49c54-377f-4912-a24c-af77a804e071"
+    "uuid": "00f49c54-377f-4912-a24c-af77a804e071",
+    "telemetryDisabled": false
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
