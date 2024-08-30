@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "postcodes",
+  "info": {
+    "singularName": "postcode",
+    "pluralName": "postcodes",
+    "displayName": "Postcode"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Postcode": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::address.address",
+      "inversedBy": "postcodes"
+    }
+  }
+}
